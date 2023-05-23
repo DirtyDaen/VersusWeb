@@ -1,0 +1,160 @@
+body{
+  background-color: #262626;
+}
+
+.menu{
+  display: flex;
+  height: 3vh;
+}
+
+.nav span{
+  display: block;
+  height: 3px;
+  margin: 3px;
+  width: 18px;
+  background: #c0ced2;
+  border-radius: 9px;
+}
+
+.header {
+  height: 65vw;
+  background: url(../imgs/logo.png) no-repeat center center;
+  background-size: 125%;
+
+}
+
+.header .overlay {
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header-title {
+  margin-top: -3%;
+  font-family: Aero_03;
+  font-size: 13vw;
+  font-weight: bold;
+  color: #c0ced2;
+  text-shadow: #c90a3b -3px 0, #49a492 3px 0;
+}
+
+.header-text {
+  margin-top: -8%;
+  font-family: "WeblySleek UI Semibold";
+  font-size: 3vh;
+  font-weight: bold;
+  color: #c0ced2;
+  text-decoration-line: underline;
+}
+
+.header-alignment{
+  display: flex;
+  align-items: center;
+}
+
+.c-indentity{
+  width: 100%;
+  height: 65vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #262626;
+}
+
+.c-logo{
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/logo_bp.png) no-repeat center center;
+  background-size: 100%;
+}
+
+.c-text{
+  width: 100%;
+  height: 100%;
+  background-color: rgba(10, 10, 10, 0.3);
+  color: #c90a3b;
+}
+
+.c-text p{
+  margin-left: 15px;
+  margin-right: 20px;
+  text-align: left;
+  font-family: "WeblySleek UI Light";
+}
+
+.gallery{
+  height: 65vw;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.first{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.second{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: 100%;
+}
+
+.one{
+  height: 100%;
+  width: 100%;
+  background-color: #c0ced2;
+}
+
+.two{
+  height: 100%;
+  width: 100%;
+  background-color: #49a492;
+}
+
+.images{
+  width: 100%;
+  height: 65vw;
+  display: flex;
+  flex-direction: row;
+}
+
+.images #flyer{
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/flyer1.png) no-repeat center center;
+  background-size: 150%;
+}
+
+.images #flyer2{
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/flyer2.png) no-repeat center center;
+  background-size: 150%;
+}
+
+.images #poster{
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/poster1.png) no-repeat center center;
+  background-size: 150%;
+}
+
+.images #poster2{
+  width: 100%;
+  height: 100%;
+  background: url(../imgs/poster2.png) no-repeat center center;
+  background-size: 150%;
+}
+
+.footer{
+  height: 40vw;
+  background-color: #262626;
+}
