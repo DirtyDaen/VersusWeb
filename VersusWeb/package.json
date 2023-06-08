@@ -14,5 +14,8 @@
     "bootstrap": "^5.2.3",
     "jquery": "^3.7.0",
     "lightbox2": "^2.11.4"
+  },
+  "devDependencies": {
+    "node-sass": "^9.0.0"
   }
 }
